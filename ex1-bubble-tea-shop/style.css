@@ -28,7 +28,6 @@ body {
   display: block;
 }
 
-/* ข้อความมุมล่างซ้าย */
 .text-place {
   color: white;
   position: absolute;
@@ -37,7 +36,6 @@ body {
   z-index: 2;
 }
 
-/* ป้ายมุมบนขวา */
 .text-shop {
   color: white;
   background-color: rgb(167, 159, 159);
