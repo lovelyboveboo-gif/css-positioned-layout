@@ -1,5 +1,49 @@
-body {
-  font-family: "Kanit";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Start coding here */
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 10px solid white;
+  position: relative;
+  z-index: 1;
+}
+
+.card img {
+  width: 500px;
+  display: block;
+}
+
+/* ข้อความมุมล่างซ้าย */
+.text-place {
+  color: white;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  z-index: 2;
+}
+
+/* ป้ายมุมบนขวา */
+.text-shop {
+  color: white;
+  background-color: rgb(167, 159, 159);
+  padding: 2px 10px;
+  position: absolute;
+  top: 12px;
+  right: 0px;
+  z-index: 2;
+}
