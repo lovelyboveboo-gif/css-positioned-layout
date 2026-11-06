@@ -1,5 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.box {
+  height: auto;
+  border: 5px solid white;
+  background-color: white;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.box-1 {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.box-1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.box-1 p {
+  padding: 5px 0px 5px 10px;
+}
+
+.box .badge {
+  width: fit-content;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 8px 30px;
+  font-size: 25px;
+}
